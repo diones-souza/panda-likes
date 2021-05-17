@@ -31,7 +31,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="18">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="36">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -50,6 +50,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <StateMachine InitialState="{x:Reference __ReferenceID9}" DisplayName="Main" sap:VirtualizedContainerService.HintSize="856,636.8" sap2010:WorkflowViewState.IdRef="StateMachine_1">
@@ -195,7 +196,7 @@
                                   </ActivityAction>
                                 </ui:BrowserScope.Body>
                               </ui:BrowserScope>
-                              <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  YoutubeMenu'" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                              <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  YoutubeMenu'" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition Position="Center">
                                     <ui:CursorPosition.OffsetX>
@@ -217,7 +218,7 @@
                                   </ui:Target>
                                 </ui:Click.Target>
                               </ui:Click>
-                              <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  ?page=module&amp;md=ylike'" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                              <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'A  ?page=module&amp;md=ylike'" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition Position="Center">
                                     <ui:CursorPosition.OffsetX>
@@ -286,7 +287,7 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                      <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                         <ui:Click.CursorPosition>
                                           <ui:CursorPosition Position="Center">
                                             <ui:CursorPosition.OffsetX>
@@ -378,7 +379,7 @@
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                         <If.Then>
-                                                          <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'YT-ICON'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                                          <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'YT-ICON'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                             <ui:Click.CursorPosition>
                                                               <ui:CursorPosition Position="Center">
                                                                 <ui:CursorPosition.OffsetX>
@@ -502,10 +503,10 @@
                                                   <Transition.To>
                                                     <State x:Name="__ReferenceID7" DisplayName="Check Error" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_9">
                                                       <State.Entry>
-                                                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                                                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="688.8,1123.2" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
@@ -519,11 +520,7 @@
                                                               <Sequence DisplayName="Extrair da Tela" sap:VirtualizedContainerService.HintSize="610.4,799.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                                                 <Sequence.Variables>
                                                                   <Variable x:TypeArguments="ui:GenericValue" Name="message" />
-                                                                  <Variable x:TypeArguments="x:Boolean" Name="isSuccess">
-                                                                    <Variable.Default>
-                                                                      <Literal x:TypeArguments="x:Boolean" Value="True" />
-                                                                    </Variable.Default>
-                                                                  </Variable>
+                                                                  <Variable x:TypeArguments="x:Boolean" Default="True" Name="isSuccess" />
                                                                 </Sequence.Variables>
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -638,9 +635,7 @@
                                                               <x:Int32 x:Key="DestConnectionPointIndex">36</x:Int32>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <Transition.Condition>
-                                                            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="errors = 0" />
-                                                          </Transition.Condition>
+                                                          <Transition.Condition>[errors = 0]</Transition.Condition>
                                                           <Transition.To>
                                                             <State x:Name="__ReferenceID2" DisplayName="Reload" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_11">
                                                               <State.Entry>
@@ -698,9 +693,7 @@
                                                                   <Transition.To>
                                                                     <x:Reference>__ReferenceID0</x:Reference>
                                                                   </Transition.To>
-                                                                  <Transition.Condition>
-                                                                    <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="isOpen = true" />
-                                                                  </Transition.Condition>
+                                                                  <Transition.Condition>[isOpen = true]</Transition.Condition>
                                                                 </Transition>
                                                                 <Transition DisplayName="End" sap:VirtualizedContainerService.HintSize="448.8,509.6" sap2010:WorkflowViewState.IdRef="Transition_24">
                                                                   <sap:WorkflowViewStateService.ViewState>
@@ -713,9 +706,7 @@
                                                                   <Transition.To>
                                                                     <x:Reference>__ReferenceID1</x:Reference>
                                                                   </Transition.To>
-                                                                  <Transition.Condition>
-                                                                    <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="isOpen = false" />
-                                                                  </Transition.Condition>
+                                                                  <Transition.Condition>[isOpen = false]</Transition.Condition>
                                                                 </Transition>
                                                               </State.Transitions>
                                                             </State>
@@ -732,9 +723,7 @@
                                                           <Transition.To>
                                                             <x:Reference>__ReferenceID0</x:Reference>
                                                           </Transition.To>
-                                                          <Transition.Condition>
-                                                            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="errors &lt; 2" />
-                                                          </Transition.Condition>
+                                                          <Transition.Condition>[errors &lt; 2]</Transition.Condition>
                                                         </Transition>
                                                         <Transition DisplayName="Skip" sap:VirtualizedContainerService.HintSize="448.8,509.6" sap2010:WorkflowViewState.IdRef="Transition_23">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -744,11 +733,9 @@
                                                               <x:Int32 x:Key="DestConnectionPointIndex">26</x:Int32>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <Transition.Condition>
-                                                            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="errors &gt; 1" />
-                                                          </Transition.Condition>
+                                                          <Transition.Condition>[errors &gt; 1]</Transition.Condition>
                                                           <Transition.To>
-                                                            <State x:Name="__ReferenceID8" DisplayName="Skip" sap:VirtualizedContainerService.HintSize="481.6,995.2" sap2010:WorkflowViewState.IdRef="State_10">
+                                                            <State x:Name="__ReferenceID8" DisplayName="Skip" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_10">
                                                               <State.Entry>
                                                                 <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,633.6" sap2010:WorkflowViewState.IdRef="TryCatch_7">
                                                                   <TryCatch.Try>
@@ -759,7 +746,7 @@
                                                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                                                      <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                                         <ui:Click.CursorPosition>
                                                                           <ui:CursorPosition Position="Center">
                                                                             <ui:CursorPosition.OffsetX>
@@ -887,11 +874,7 @@
       <Variable x:TypeArguments="ui:Browser" Name="attachBrowserModal" />
       <Variable x:TypeArguments="x:Boolean" Name="isOpen" />
       <Variable x:TypeArguments="ui:Browser" Name="attachBrowserMain" />
-      <Variable x:TypeArguments="x:Int32" Name="errors">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="errors" />
     </StateMachine.Variables>
   </StateMachine>
 </Activity>
