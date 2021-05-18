@@ -171,7 +171,7 @@
     },
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
-      "Version": "2.5.0",
+      "Version": "2.5",
       "Dependencies": []
     },
     "Google.Apis": {
@@ -427,7 +427,7 @@
     },
     "Microsoft.Exchange.WebServices": {
       "Id": "Microsoft.Exchange.WebServices",
-      "Version": "2.2.0",
+      "Version": "2.2",
       "Dependencies": []
     },
     "Microsoft.Extensions.Configuration": {
@@ -994,7 +994,7 @@
     {
       "Package": {
         "Id": "DocumentFormat.OpenXml",
-        "Version": "2.5.0"
+        "Version": "2.5"
       },
       "Assemblies": [
         "C:\\Users\\Admin\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
@@ -1186,7 +1186,7 @@
     {
       "Package": {
         "Id": "Microsoft.Exchange.WebServices",
-        "Version": "2.2.0"
+        "Version": "2.2"
       },
       "Assemblies": [
         "C:\\Users\\Admin\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",

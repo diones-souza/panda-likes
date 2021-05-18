@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gr0ahvOoFL0fsO6dtGQUA0HLcKxoi2rLNK4Qa9l/rkDJoXxYYDWWkCKNft+ZSjjdgv3bS+XLdMnHDF1G9ls2JA==",
+  "dgSpecHash": "IfK4P3RVShaBwH3TquN/wvHnLjhg0BLzSa9upftvMKv6cvadxn8EIcuA2h4/hgAHWqXcFACtRZOLxuevQ73VBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\panda-likes\\.local\\",
+  "projectFilePath": "D:\\Documents\\GitHub\\panda-likes\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
@@ -70,42 +70,5 @@
     "C:\\Users\\Admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\uipath.uiautomation.activities.21.4.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\uipath.vision\\3.0.1\\uipath.vision.3.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Admin\\Documents\\GitHub\\panda-likes\\.local",
-      "message": "System.IO.Pipelines 4.7.1 depends on System.Buffers (>= 4.5.0) but System.Buffers 4.5.0 was not found. An approximate best match of System.Buffers 4.5.1 was resolved.",
-      "libraryId": "System.Buffers",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win7-x86"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Admin\\Documents\\GitHub\\panda-likes\\.local",
-      "message": "Microsoft.Extensions.Primitives 3.1.6 depends on System.Memory (>= 4.5.2) but System.Memory 4.5.2 was not found. An approximate best match of System.Memory 4.5.4 was resolved.",
-      "libraryId": "System.Memory",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win7-x86"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Admin\\Documents\\GitHub\\panda-likes\\.local",
-      "message": "System.IO.Pipelines 4.7.1 depends on System.Memory (>= 4.5.3) but System.Memory 4.5.3 was not found. An approximate best match of System.Memory 4.5.4 was resolved.",
-      "libraryId": "System.Memory",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win7-x86"
-      ]
-    }
-  ]
+  "logs": []
 }
